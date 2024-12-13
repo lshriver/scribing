@@ -1,0 +1,101 @@
+age,workclass,fnlwgt,education,educationnum,martialstatus,occupation,relationship,race,sex,capitalgain,capitalloss,hoursperweek,nativecountry,label
+62,Private,919528,HS-grad,4,,Tech,Own-child,Hispanic,Male,5802,70,8,China,<=50K
+65,Self-emp,25741,Doctorate,7,,Service,Unmarried,Asian,Female,8058,21,52,United States,<=50K
+18,Self-emp,853800,Doctorate,2,,Management,Wife,Other,Female,2489,734,74,Mexico,<=50K
+21,Federal,104275,HS-grad,8,,Tech,Not-in-family,Black,Male,1169,707,88,Mexico,>50K
+21,Private,316130,Some-college,5,,Tech,Own-child,Hispanic,Female,4057,336,65,Canada,<=50K
+57,Private,277247,Some-college,10,,Management,Unmarried,White,Male,6613,320,18,Mexico,>50K
+27,Self-emp,656915,Masters,3,,Clerical,Wife,Other,Male,183,129,41,United States,<=50K
+37,Gov,569338,HS-grad,13,,Sales,Husband,Hispanic,Female,4207,818,22,Mexico,<=50K
+39,Local,404956,Doctorate,1,,Clerical,Unmarried,Black,Female,5346,864,95,United States,<=50K
+68,Gov,327414,Some-college,9,,Management,Wife,Hispanic,Male,2827,363,27,United States,>50K
+54,Private,677939,Some-college,3,,Service,Not-in-family,Other,Male,6241,466,16,China,<=50K
+41,Federal,343526,Masters,14,,Sales,Unmarried,Other,Female,2286,338,18,Mexico,>50K
+24,Gov,383758,Masters,8,,Sales,Own-child,White,Male,5131,697,11,India,<=50K
+42,Gov,188877,Masters,9,,Management,Husband,Asian,Male,7137,406,18,Canada,>50K
+42,Private,685525,Masters,5,,Management,Unmarried,Black,Male,5217,783,4,India,>50K
+30,Self-emp,143847,HS-grad,5,,Service,Unmarried,Other,Female,5471,911,74,Mexico,>50K
+19,Private,749883,Bachelors,13,,Clerical,Husband,Other,Female,2349,540,30,Mexico,>50K
+56,Gov,565040,Some-college,2,,Service,Not-in-family,Black,Female,2822,327,68,India,>50K
+57,Gov,885531,Masters,8,,Management,Own-child,Other,Male,2598,283,72,China,>50K
+41,Federal,220536,Doctorate,15,,Service,Wife,White,Female,4147,216,81,Mexico,>50K
+64,Gov,81892,Some-college,7,,Management,Not-in-family,White,Female,9232,313,99,China,>50K
+42,Federal,568218,Masters,10,,Sales,Wife,Asian,Male,8087,826,5,Canada,>50K
+35,Gov,56774,Masters,5,,Service,Own-child,Hispanic,Male,4867,216,62,Mexico,>50K
+55,Self-emp,300795,HS-grad,2,,Tech,Not-in-family,Black,Female,1882,972,91,India,<=50K
+43,Gov,335029,Bachelors,6,,Sales,Unmarried,White,Female,7802,269,7,China,>50K
+31,Federal,157069,Bachelors,10,,Tech,Not-in-family,White,Female,5533,914,33,Canada,<=50K
+26,Federal,468396,HS-grad,8,,Management,Wife,White,Female,645,78,82,United States,<=50K
+27,Federal,895359,Doctorate,12,,Tech,Unmarried,White,Male,5497,974,38,Canada,>50K
+38,Gov,894200,Bachelors,14,,Clerical,Husband,Asian,Female,4039,788,28,China,<=50K
+69,Federal,608786,Doctorate,2,,Management,Not-in-family,Other,Female,6927,583,52,Mexico,>50K
+34,Local,73003,Some-college,4,,Tech,Not-in-family,White,Male,6990,695,79,Mexico,>50K
+69,Self-emp,358115,Some-college,6,,Management,Unmarried,Asian,Male,9635,300,60,United States,<=50K
+23,Gov,437225,Bachelors,8,,Clerical,Not-in-family,Hispanic,Female,6324,235,87,China,>50K
+33,Federal,184743,Bachelors,4,,Tech,Unmarried,Other,Female,5479,245,96,Mexico,<=50K
+65,Self-emp,473155,Some-college,7,,Tech,Husband,Hispanic,Female,6407,91,9,Mexico,<=50K
+18,Gov,814014,Some-college,7,,Sales,Not-in-family,Other,Female,761,44,57,China,<=50K
+36,Self-emp,826276,Bachelors,8,,Tech,Wife,Other,Female,9139,783,30,Canada,<=50K
+53,Local,94917,Some-college,10,,Tech,Not-in-family,Other,Male,3997,599,29,India,>50K
+42,Gov,48429,Bachelors,2,,Management,Unmarried,Asian,Male,4791,971,96,Canada,>50K
+67,Federal,353619,HS-grad,10,,Clerical,Unmarried,Black,Female,625,589,35,China,>50K
+69,Private,872755,Masters,7,,Service,Wife,Hispanic,Male,8587,510,59,Canada,<=50K
+47,Federal,92727,Bachelors,1,,Clerical,Wife,Other,Female,5837,413,82,Mexico,>50K
+37,Gov,332953,Doctorate,4,,Clerical,Unmarried,Other,Male,3383,607,93,China,<=50K
+37,Federal,667481,Bachelors,9,,Tech,Unmarried,White,Female,2555,110,17,Mexico,<=50K
+32,Private,710713,Some-college,5,,Service,Not-in-family,White,Female,4600,722,73,Mexico,<=50K
+57,Private,755347,Doctorate,2,,Service,Unmarried,Asian,Male,5305,644,60,Mexico,<=50K
+50,Private,669246,Doctorate,5,,Clerical,Wife,Other,Female,6758,540,8,Canada,<=50K
+19,Federal,575978,Masters,6,,Management,Not-in-family,Hispanic,Female,7762,705,13,India,<=50K
+27,Gov,229058,Bachelors,1,,Service,Unmarried,Hispanic,Female,3308,49,33,United States,>50K
+50,Federal,746108,HS-grad,4,,Service,Husband,White,Female,165,945,85,India,>50K
+49,Private,85523,Doctorate,15,,Clerical,Wife,White,Female,1415,343,76,United States,>50K
+28,Local,781871,Doctorate,11,,Sales,Husband,Black,Female,1821,569,94,China,<=50K
+41,Private,123417,HS-grad,2,,Service,Not-in-family,Other,Male,9294,720,41,India,<=50K
+53,Private,398490,Doctorate,5,,Clerical,Wife,Other,Male,523,41,1,United States,>50K
+29,Gov,136491,Some-college,5,,Sales,Not-in-family,White,Female,7228,474,85,Mexico,>50K
+68,Federal,92119,HS-grad,5,,Clerical,Own-child,White,Female,8295,752,93,China,>50K
+46,Gov,502967,Some-college,1,,Clerical,Wife,White,Male,699,194,78,India,<=50K
+52,Federal,146253,Bachelors,1,,Management,Not-in-family,Black,Male,6273,943,38,Canada,>50K
+18,Private,53349,Bachelors,11,,Tech,Husband,Black,Male,448,273,48,China,>50K
+18,Private,217650,Bachelors,14,,Sales,Not-in-family,Black,Male,8146,20,62,Mexico,<=50K
+54,Private,183986,Some-college,9,,Tech,Unmarried,Other,Female,3467,678,51,Mexico,<=50K
+23,Federal,211816,Doctorate,15,,Sales,Unmarried,Black,Female,6517,320,69,Mexico,>50K
+56,Private,606001,Doctorate,12,,Sales,Husband,Other,Male,3087,646,77,United States,>50K
+58,Gov,516501,HS-grad,12,,Service,Not-in-family,White,Male,131,236,58,India,<=50K
+35,Gov,204792,HS-grad,5,,Management,Wife,Other,Male,213,662,5,China,<=50K
+33,Private,211471,Doctorate,7,,Management,Husband,Hispanic,Male,3356,79,37,India,<=50K
+22,Local,917300,Masters,10,,Clerical,Not-in-family,Asian,Female,1614,74,81,India,<=50K
+59,Federal,388624,Some-college,13,,Tech,Own-child,White,Male,2927,162,83,United States,>50K
+60,Local,319538,Some-college,12,,Clerical,Unmarried,Hispanic,Male,9025,680,38,United States,>50K
+49,Private,214997,Some-college,4,,Management,Husband,Asian,Male,4940,678,95,Mexico,>50K
+19,Local,273038,Masters,4,,Clerical,Not-in-family,Hispanic,Female,1291,661,36,India,>50K
+19,Federal,597701,HS-grad,13,,Management,Own-child,Asian,Female,9497,802,49,United States,>50K
+57,Federal,130062,HS-grad,3,,Management,Unmarried,Asian,Female,1383,373,1,Mexico,<=50K
+59,Local,451424,Some-college,2,,Sales,Own-child,Black,Male,9050,160,50,China,<=50K
+53,Self-emp,433358,HS-grad,11,,Clerical,Husband,Hispanic,Female,4845,426,58,United States,>50K
+56,Federal,305048,Some-college,3,,Sales,Not-in-family,Hispanic,Female,5538,383,10,United States,<=50K
+29,Private,954317,Doctorate,2,,Clerical,Own-child,White,Male,3070,300,51,China,>50K
+64,Private,442257,Doctorate,12,,Management,Own-child,Other,Female,656,611,98,China,>50K
+36,Private,856033,HS-grad,4,,Management,Own-child,Hispanic,Male,2593,809,49,United States,>50K
+45,Self-emp,625792,Masters,13,,Service,Wife,Hispanic,Female,3105,761,13,China,>50K
+18,Private,122931,HS-grad,5,,Sales,Own-child,White,Female,7340,871,71,China,<=50K
+32,Local,613512,Bachelors,11,,Tech,Not-in-family,White,Male,1510,923,37,Mexico,>50K
+53,Self-emp,341099,Some-college,2,,Clerical,Not-in-family,Black,Male,9000,763,37,United States,>50K
+30,Federal,354232,Bachelors,2,,Tech,Not-in-family,Other,Female,1130,304,31,China,>50K
+60,Self-emp,540292,HS-grad,1,,Service,Unmarried,Other,Female,595,383,20,Mexico,<=50K
+38,Private,438836,Doctorate,8,,Management,Own-child,Black,Male,4850,650,39,United States,>50K
+29,Private,907200,Some-college,9,,Sales,Husband,White,Female,1440,324,45,United States,<=50K
+22,Local,576809,HS-grad,11,,Tech,Unmarried,White,Male,5015,273,36,United States,<=50K
+24,Federal,751699,Masters,5,,Sales,Wife,White,Male,324,771,15,China,>50K
+22,Federal,853623,HS-grad,4,,Management,Not-in-family,Hispanic,Male,5535,613,30,China,<=50K
+65,Self-emp,592140,Masters,6,,Sales,Wife,Other,Female,8854,606,52,India,<=50K
+21,Private,111490,Doctorate,7,,Sales,Unmarried,Other,Female,7232,471,61,Mexico,>50K
+30,Private,294446,Masters,4,,Clerical,Wife,Asian,Female,7909,285,82,India,>50K
+54,Self-emp,490285,Bachelors,3,,Tech,Unmarried,Asian,Female,79,614,68,Mexico,<=50K
+58,Gov,617985,Bachelors,10,,Service,Wife,Hispanic,Female,8275,635,30,Canada,>50K
+32,Private,586801,Bachelors,9,,Sales,Not-in-family,Hispanic,Male,6927,158,28,India,<=50K
+33,Federal,772002,Bachelors,13,,Sales,Own-child,Other,Female,5130,203,4,United States,>50K
+38,Self-emp,195617,Bachelors,2,,Service,Not-in-family,Asian,Male,5620,450,34,Canada,>50K
+53,Self-emp,129005,Masters,13,,Tech,Not-in-family,Black,Male,9833,477,52,Canada,>50K
+41,Local,555277,Bachelors,5,,Management,Not-in-family,White,Female,9040,316,28,Canada,<=50K
