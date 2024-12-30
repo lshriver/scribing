@@ -25,3 +25,12 @@ def run_circuit(qc,simulator='statevector_simulator',shots=1,hist=True):
     
     # Plot the results
     return plot_histogram(results, figsize=(18,4)) if hist else results             
+
+# Calculating the angle that represents a certain probability
+from math import asin, sqrt
+
+def prob_to_angle(prob):
+    """"
+    Converts a given P(psi) value into an equivalent theta value
+    """
+    return 2*asin(sqrt(prob))
