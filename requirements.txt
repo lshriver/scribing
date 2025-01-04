@@ -1,6 +1,10 @@
 absl-py==2.1.0
+appdirs==1.4.4
 asttokens==2.4.1
 astunparse==1.6.3
+autograd==1.7.0
+autoray==0.7.0
+cachetools==5.5.0
 certifi==2024.12.14
 charset-normalizer==3.4.1
 comm==0.2.2
@@ -60,6 +64,8 @@ packaging==24.1
 pandas==2.2.3
 parso==0.8.4
 pbr==6.1.0
+PennyLane==0.39.0
+PennyLane_Lightning==0.39.0
 pexpect==4.9.0
 pillow==11.0.0
 platformdirs==4.3.6
@@ -94,6 +100,7 @@ tensorboard-data-server==0.7.2
 tensorflow==2.18.0
 termcolor==2.5.0
 threadpoolctl==3.5.0
+toml==0.10.2
 torch==2.5.1
 torchviz==0.0.3
 tornado==6.4.1
