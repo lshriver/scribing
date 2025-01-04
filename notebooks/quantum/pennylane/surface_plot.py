@@ -19,7 +19,7 @@ def plot_opt_surface(costs, params, cost_func):
     #Plotting the cost function of grid
     fig = plt.figure(figsize = (10, 10))
     ax = fig.add_subplot(projection='3d')
-    ax.plot_wireframe(X, Y, Z, rstride=10, cstride=10, edgecolor='grey', linewidth=0.5)
+    ax.plot_wireframe(X, Y, Z, rstride=10, cstride=10, edgecolor='blue')
 
     # Plotting the optimization result
     param1, param2 = np.split(params, 2, axis=1)
