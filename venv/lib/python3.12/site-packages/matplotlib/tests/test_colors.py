@@ -15,6 +15,7 @@ import matplotlib
 import matplotlib as mpl
 import matplotlib.colors as mcolors
 import matplotlib.colorbar as mcolorbar
+import matplotlib.colorizer as mcolorizer
 import matplotlib.pyplot as plt
 import matplotlib.scale as mscale
 from matplotlib.rcsetup import cycler
@@ -1415,7 +1416,7 @@ def test_ndarray_subclass_norm():
     # which objects when adding or subtracting with other
     # arrays. See #6622 and #8696
     class MyArray(np.ndarray):
-        def __isub__(self, other):  # type: ignore
+        def __isub__(self, other):  # type: ignore[misc]
             raise RuntimeError
 
         def __add__(self, other):
@@ -1634,7 +1635,7 @@ def test_color_sequences():
     assert plt.color_sequences is matplotlib.color_sequences  # same registry
     assert list(plt.color_sequences) == [
         'tab10', 'tab20', 'tab20b', 'tab20c', 'Pastel1', 'Pastel2', 'Paired',
-        'Accent', 'Dark2', 'Set1', 'Set2', 'Set3']
+        'Accent', 'Dark2', 'Set1', 'Set2', 'Set3', 'petroff10']
     assert len(plt.color_sequences['tab10']) == 10
     assert len(plt.color_sequences['tab20']) == 20
 
@@ -1689,6 +1690,11 @@ def test_set_cmap_mismatched_name():
     assert cmap_returned.name == "wrong-cmap"
 
 
+def test_cmap_alias_names():
+    assert matplotlib.colormaps["gray"].name == "gray"  # original
+    assert matplotlib.colormaps["grey"].name == "grey"  # alias
+
+
 def test_to_rgba_array_none_color_with_alpha_param():
     # effective alpha for color "none" must always be 0 to achieve a vanishing color
     # even explicit alpha must be ignored
@@ -1710,3 +1716,15 @@ def test_to_rgba_array_none_color_with_alpha_param():
                           (('C3', 0.5), True)])
 def test_is_color_like(input, expected):
     assert is_color_like(input) is expected
+
+
+def test_colorizer_vmin_vmax():
+    ca = mcolorizer.Colorizer()
+    assert ca.vmin is None
+    assert ca.vmax is None
+    ca.vmin = 1
+    ca.vmax = 3
+    assert ca.vmin == 1.0
+    assert ca.vmax == 3.0
+    assert ca.norm.vmin == 1.0
+    assert ca.norm.vmax == 3.0
