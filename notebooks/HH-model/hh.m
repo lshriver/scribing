@@ -1,4 +1,5 @@
-Integration of Hodgkin-Huxley equations with Euler method
+% Integration of Hodgkin-Huxley equations with Euler method
+% Source: Fundamentals in Computatinal Neuroscience by Thomas Trappenberg
 clear; clc; close all
 
 % maximal conductances (units of mS/cm^2); 1=K, 2=Na, 3=R
